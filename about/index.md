@@ -110,3 +110,20 @@ comments: false
 - Taught lab safety guidelines, standard lab procedures, and best practices, as well as ensured lab safety
 
 <!-- Detail checks: 1. No period for each bullet; 2. Past tense for previous work; 3. Present tense for current work; 4. Spell check passed; 5. Grammarly check passed; 6. Sync with Linkedin; 7. Check paper format -->
+## Skill
+
+|||---|||
+- Mcrosoft Office
+  
+- Python Programming
+  
+- SQL
+
+- R Programming
+
+- SPSS
+
+- Online Meeting
+
+- Internet
+|||---|||
