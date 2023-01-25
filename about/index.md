@@ -1,3 +1,9 @@
+---
+layout: page
+title: "resume"
+comments: false
+---
+
 <link rel="stylesheet" type="text/css" href="resume.css">
 
 <span class="name">Teng-Jui Lin</span>
