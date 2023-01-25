@@ -112,18 +112,7 @@ comments: false
 <!-- Detail checks: 1. No period for each bullet; 2. Past tense for previous work; 3. Present tense for current work; 4. Spell check passed; 5. Grammarly check passed; 6. Sync with Linkedin; 7. Check paper format -->
 ## Skill
 
-|||---|||
-- Mcrosoft Office
-  
-- Python Programming
-  
-- SQL
-
-- R Programming
-
-- SPSS
-
-- Online Meeting
-
-- Internet
-|||---|||
+|- Microsoft Office     |- R Programming    | 
+|- Python Programming   |- SPSS             |
+|- SQL                  |- Online Meeting   |
+|- Internet             |                   |
