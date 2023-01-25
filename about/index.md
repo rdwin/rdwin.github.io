@@ -3,11 +3,16 @@ layout: about
 comments: false
 ---
 
-<link rel="stylesheet" type="text/css" href="//about/resume.css" />
+<link rel="stylesheet" type="text/css" href="resume.css" />
 
-<span class="name">Dwi Nur R.</span>
+<span class="name">Teng-Jui Lin</span>
 
-<span class="info">[![Mail](https://simpleicons.org/icons/minutemailer.svg) tlin10@uw.edu](mailto:tlin10@uw.edu)[![GitHub](https://simpleicons.org/icons/github.svg) github.com/tengjuilin](https://github.com/tengjuilin)</span>
+<span class="info">
+
+[![Mail](https://simpleicons.org/icons/minutemailer.svg) tlin10@uw.edu](mailto:tlin10@uw.edu)
+[![GitHub](https://simpleicons.org/icons/github.svg) github.com/tengjuilin](https://github.com/tengjuilin)
+
+</span>
 
 ## Education
 
