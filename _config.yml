@@ -1,6 +1,7 @@
 # Site
 title:              R, Dwi N
-bio:                'Anything that can go wrong will go wrong.'
+bio:                'Anything that can go wrong will go wrong.
+~ Murphy's Law'
 description:        "Project documentation for self-learning."
 reading_time:       true
 words_per_minute:   200
