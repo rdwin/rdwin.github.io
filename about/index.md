@@ -7,12 +7,7 @@ comments: false
 
 <span class="name">Teng-Jui Lin</span>
 
-<span class="info">
-
-[![Mail](https://simpleicons.org/icons/minutemailer.svg) tlin10@uw.edu](mailto:tlin10@uw.edu)
-[![GitHub](https://simpleicons.org/icons/github.svg) github.com/tengjuilin](https://github.com/tengjuilin)
-
-</span>
+<span class="info">[![Mail](https://simpleicons.org/icons/minutemailer.svg) + tlin10@uw.edu](mailto:tlin10@uw.edu) + [![GitHub](https://simpleicons.org/icons/github.svg) + github.com/tengjuilin](https://github.com/tengjuilin)</span>
 
 ## Education
 
