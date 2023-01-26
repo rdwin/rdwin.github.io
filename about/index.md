@@ -5,9 +5,14 @@ comments: false
 
 <link rel="stylesheet" type="text/css" href="resume.css" />
 
+<script src="resume.js"></script>
+
 <span class="name">Teng-Jui Lin</span>
 
-<span class="info">[![Mail](https://simpleicons.org/icons/minutemailer.svg) + tlin10@uw.edu](mailto:tlin10@uw.edu) + [![GitHub](https://simpleicons.org/icons/github.svg) + github.com/tengjuilin](https://github.com/tengjuilin)</span>
+<span class="info">
+[![Mail](https://simpleicons.org/icons/minutemailer.svg) tlin10@uw.edu](mailto:tlin10@uw.edu)
+[![GitHub](https://simpleicons.org/icons/github.svg) github.com/tengjuilin](https://github.com/tengjuilin)
+</span>
 
 ## Education
 
@@ -183,8 +188,5 @@ Presenting Author^
 
 - Supervised biology, chemistry, and physics lab practices of 9th-grade students for Zhongzhao Examination
 - Taught lab safety guidelines, standard lab procedures, and best practices, as well as ensured lab safety -->
-
-<link rel="stylesheet" type="text/css" href="resume.css">
-<script src="resume.js"></script>
 
 <!-- Detail checks: 1. No period for each bullet; 2. Past tense for previous work; 3. Present tense for current work; 4. Spell check passed; 5. Grammarly check passed; 6. Sync with Linkedin; 7. Check paper format -->
