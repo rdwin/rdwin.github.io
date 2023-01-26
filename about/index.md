@@ -7,7 +7,7 @@ comments: false
 
 <script src="resume.js"></script>
 
-<span class="name">Teng-Jui Lin</span>
+<span class="name">Lin</span>
 
 <span class="info">
 [![Mail](https://simpleicons.org/icons/minutemailer.svg) tlin10@uw.edu](mailto:tlin10@uw.edu)

@@ -67,7 +67,8 @@ li {
 /* icons for contact info */
 .info a img {
     width: 12px;
-    display: inline-block;
+    display:block;
+    text-align: center;
 }
 
 a {
@@ -90,7 +91,7 @@ location {
 }
 
 .info {
-    display: inline-block;
+    display: block;
     text-align: center;
     white-space: nowrap;
 }
