@@ -27,12 +27,14 @@ layout: compress
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
                             <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                            <blockquote><p>{{ post.excerpt }}</p></blockquote>
+                            <em><p>{{ post.excerpt }}</p></em>
                             <span target="_blank" rel="noopener noreferrer">
-                                <p><i class="fa fa-calendar"></i> {{post.date | date: '%d %B %Y'}}</p>
-                                <p><i class="fa fa-tags"></i>
-                                    {% for tag in post.tag || tag in post.tags %}
-                                        {{tag}}
+                                <p><i class="fa fa-calendar"></i> 
+                                    {{post.date | date: '%d %B %Y'}}
+                                </p>
+                                <p class="capitalize"><i class="fa fa-tags"></i>
+                                    {% for tag in post.tag || tags in post.tags %}
+                                        {{tag || tags}}
                                         {%- unless forloop.last -%}, {%- endunless -%}
                                     {% endfor %}
                                 </p>
