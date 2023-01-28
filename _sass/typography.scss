@@ -60,10 +60,15 @@ h3.title a {
             }
 		}
 		p {
+			font-weight: normal;
+			@include font-rem(16);
+		}
+		dl {
 			font-weight: lighter;
 			@include font-rem(16);
 			text-transform: capitalize;
 			display: inline-block;
+			white-space: nowrap;
 			color: darkslategray;
 		}
 	}
