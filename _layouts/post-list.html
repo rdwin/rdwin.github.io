@@ -30,6 +30,7 @@ layout: compress
                             <p>{{ post.excerpt }}</p>
                             <p target="_blank" rel="noopener noreferrer"><i class="fa fa-calendar"></i> {{post.date | date: '%d %B %Y'}}</p>
                             <p target="_blank" rel="noopener noreferrer"><i class="fa fa-tags"></i> {{post.tag}}</p>
+                            <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags/#{{ tag }}" title="Pages tagged {{ tag }}" class="tag"><i class="fa fa-tags"></i><span class="term">{{ tag }}</span></a>{% unless forloop.last %}{% endunless %}{% endfor %}</span>
                             <!-- <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a> -->
                         </li>
                     </ul>
