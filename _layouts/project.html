@@ -28,7 +28,9 @@ layout: compress
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
                             <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
                             <p>{{ post.excerpt }}</p>
-                            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
+                            <p target="_blank" rel="noopener noreferrer"><i class="fa fa-calendar"></i> {{post.date | date: '%d %B %Y'}}</p>
+                            <p target="_blank" rel="noopener noreferrer"><i class="fa fa-tags"></i> {{post.tag}}</p>
+                            <!-- <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a> -->
                         </li>
                     </ul>
                       {% endif %}
