@@ -62,9 +62,9 @@ h3.title a {
 		p {
 			font-weight: lighter;
 			@include font-rem(16);
-		}
-		p.capitalize{
 			text-transform: capitalize;
+			display: inline-block;
+			color: darkslategray;
 		}
 	}
 }
