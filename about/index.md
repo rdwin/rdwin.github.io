@@ -3,16 +3,16 @@ layout: about
 comments: false
 ---
 
-<link rel="stylesheet" type="text/css" href="resume.css" />
+<link rel="stylesheet" type="text/css" href="resume.css" ></link>
 
 <script src="resume.js"></script>
 
 <span class="name">Dwi Nur R.</span>
 
 <span class="info">
-<i class="fa fa-envelope"></i> [rdwinr10@gmail.com](mailto:rdwinr10@gmail.com)
-<i class="fa fa-github"></i> [github.com/rdwin](https://github.com/rdwin)
-<i class="fa fa-map-marker"></i> Semarang, Indonesia
+<i class="fa fa-envelope"></i><a href="mailto:rdwinr10@gmail.com">rdwinr10@gmail.com]</a>
+<i class="fa fa-github"></i> <a href= "https://github.com/rdwin">github.com/rdwin</a>
+<i class="fa fa-map-marker"></i> <a>Semarang, Indonesia</a>
 </span>
 
 ## Education
