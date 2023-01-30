@@ -3,17 +3,17 @@ layout: about
 comments: false
 ---
 
-<link rel="stylesheet" type="text/css" href="resume.css" ></link>
+<link rel="stylesheet" type="text/css" href="resume.css">
 
 <script src="resume.js"></script>
 
 <span class="name">Dwi Nur R.</span>
 
 <span class="info">
-<i class="fa fa-envelope"></i><a href="mailto:rdwinr10@gmail.com">rdwinr10@gmail.com]</a>
-<i class="fa fa-github"></i> <a href= "https://github.com/rdwin">github.com/rdwin</a>
-<i class="fa fa-map-marker"></i> <a>Semarang, Indonesia</a>
-</span>
+[![Mail](https://simpleicons.org/icons/minutemailer.svg)rdwinr10@gmail.com](mailto:rdwinr10@gmail.com)
+[![GitHub](https://simpleicons.org/icons/github.svg)github.com/rdwin](https://github.com/rdwin)
+[![Location](https://simpleicons.org/icons/googlemaps.svg)Semarang, Indonesia]
+
 
 ## Education
 
