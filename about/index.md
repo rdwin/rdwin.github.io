@@ -7,27 +7,28 @@ comments: false
 
 <script src="resume.js"></script>
 
-<span class="name">Lin</span>
+<span class="name">Dwi Nur R.</span>
 
 <span class="info">
 [![Mail](https://simpleicons.org/icons/minutemailer.svg) tlin10@uw.edu](mailto:tlin10@uw.edu)
 [![GitHub](https://simpleicons.org/icons/github.svg) github.com/tengjuilin](https://github.com/tengjuilin)
+[!Location]Semarang, Indonesia
 </span>
 
 ## Education
 
-### University of Washington | <location> Seattle, WA, USA </location> <time> Sep 2019 – Present </time>
+### Gadjah Mada University | <location> Sleman, DIY </location> <time> Aug 2017 – Jul 2022 </time>
 
-- B.S. in Chemical Engineering, Nanoscience and Molecular Engineering Option, with Departmental Honors
-- Minor in Applied Mathematics and Chemistry
-- Expected Graduation: June 2023
-- GPA: 3.97/4.0, ChemE GPA: 4.0/4.0
+<!-- - B.S. in Chemical Engineering, Nanoscience and Molecular Engineering Option, with Departmental Honors -->
+- Major in Psychology
+- Undergraduate's Thesis: The role of sense of community and social norms on pro-environmental behaviour
+- GPA: 3.54/4.0
 
-### Brown University | <location> Providence, RI, USA </location> <time> Jun 2018 – Aug 2018 </time>
+### SMA N 1 Boyolali | <location> Boyolali, Jawa Tengah </location> <time> Jun 2015 – May 2017 </time>
 
-- Pre-Baccalaureate Program: Neuroscience, Cell and Molecular Biology
+- GPA: 35.05/40.00
 
-<!-- ### Kinglee High School | <location> Zhengzhou, Henan, China </location> <time> Sep 2013 – Jun 2019 </time> -->
+<!-- ### Kinglee High School | <location> Zhengzhou, Henan, China </location> <time> Sep 2013 – Jun 2019 </time>
 
 ## Professional Experience
 
@@ -50,48 +51,48 @@ comments: false
 
 ## Honors & Awards
 
-<!-- Nov 2022 -->
+ Nov 2022 
 ### Poster Competition 2nd Place | <location> American Institute of Chemical Engineers </location> <time> 2022 </time>
 
-<!-- Nov 2022 -->
+ Nov 2022 
 ### Conference Travel Award | <location> Undergraduate Research Program, University of Washington </location> <time> 2022 </time>
 
-<!-- Oct 2022 -->
+ Oct 2022 
 ### Future Leader in ChemE | <location> Dept. of Chemical and Biomolecular Engineering, NC State University </location> <time> 2022 </time>
 
-<!-- May 2021, Jul 2022 -->
+ May 2021, Jul 2022 
 ### Dan Evans Term Scholarships | <location> Dept. of Chemical Engineering, University of Washington </location> <time> 2021 & 2022 </time>
 
-<!-- Jan 2022 -->
+ Jan 2022 
 ### ChemE Hackathon Team 1st Place | <location> Dept. of Chemical Engineering, University of Washington </location> <time> 2022 </time>
 
-<!-- Dec 2021 -->
+ Dec 2021
 ### Mary Gates Research Scholarship | <location> Mary Gates Endowment for Students, University of Washington </location> <time> 2021 </time>
 
-<!-- Jan 2021 -->
+ Jan 2021
 ### ChemE Hackathon Team 3rd Place | <location> Dept. of Chemical Engineering, University of Washington </location> <time> 2021 </time>
 
-<!-- Archive High School Content -->
+ Archive High School Content
 
-<!-- May 2019 -->
-<!-- ### Discovery Fair 1st Place | <location> Kinglee High School </location> <time> 2019 </time> -->
+ May 2019 
+ ### Discovery Fair 1st Place | <location> Kinglee High School </location> <time> 2019 </time> 
 
-<!-- May 2019 -->
-<!-- ### Peer Tutor Award | <location> Kinglee High School </location> <time> 2019 </time> -->
+ May 2019 
+ ### Peer Tutor Award | <location> Kinglee High School </location> <time> 2019 </time> 
 
-<!-- Jun 2018 -->
-<!-- ### Science Fair Award 2nd Place | <location> Kinglee High School </location> <time> 2018 </time> -->
+ Jun 2018 
+ ### Science Fair Award 2nd Place | <location> Kinglee High School </location> <time> 2018 </time> 
 
-<!-- May 2018 -->
-<!-- ### Peer Tutor Award | <location> Kinglee High School </location> <time> 2018 </time> -->
+ May 2018 
+ ### Peer Tutor Award | <location> Kinglee High School </location> <time> 2018 </time> 
 
-<!-- Apr 2018 -->
-<!-- ### Merit Student of Zhengzhou City | <location> Zhengzhou Municipal Education Bureau </location> <time> 2018 </time> -->
+ Apr 2018 
+ ### Merit Student of Zhengzhou City | <location> Zhengzhou Municipal Education Bureau </location> <time> 2018 </time> 
 
-<!-- Jun 2017 -->
-<!-- ### Science Fair Award 1st Place | <location> Kinglee High School </location> <time> 2017 </time> -->
+ Jun 2017 
+ ### Science Fair Award 1st Place | <location> Kinglee High School </location> <time> 2017 </time> 
 
-<!-- ## Publications -->
+ ## Publications 
 
 ## Presentations
 
@@ -103,7 +104,7 @@ Presenting Author^
 1. **T.-J. Lin**^, H. Helmbrecht, E. Nance. Incorporating Visually Aided Morpho-Phenotyping Image Recognition into robust microglial shape analysis. <location> Undergraduate Research Symposium, University of Washington, Seattle, WA, USA. </location> 20 May 2022. [Link.](https://expo.uw.edu/expo/apply/635/proceedings/offering_session?id=1372)
 1. **T.-J. Lin**^, H. Helmbrecht, E. Nance. Robust microglial shape analysis using Visually Aided Morpho-Phenotyping Image Recognition. <location> AIChE Pacific Northwest Student Regional Conference, Seattle, WA, USA. </location> 23 Apr 2022.
 
-<!-- Add at top in reverse chronological order. -->
+Add at top in reverse chronological order.
 
 ### Poster Presentations
 
@@ -112,7 +113,7 @@ Presenting Author^
 1. **T.-J. Lin**^, H. Helmbrecht, E. Nance. Quantifying microglia morphology across neuroinflammatory rat models with unsupervised machine learning. <location> Future Leaders in Chemical Engineering Award Symposium, North Carolina State University, Raleigh, NC, USA. </location> 24 Oct 2022. [Link.](https://www.cbe.ncsu.edu/research/future-leaders-in-chemical-engineering/meet-the-awardees/)
 1. **T.-J. Lin**^, A. Rubfiaro, G. Ghimire, J. He. Fabrication and characterization of functionalized gold nanorods for improving engineered cardiac tissue maturation. <location> Center for Diversity and Student Success Summer Research Symposium, Florida International University, Miami, FL, USA. </location> 29 July 2022.
 
-<!-- Add at top in reverse chronological order. -->
+Add at top in reverse chronological order.
 
 ## Mass Media Appearances
 
@@ -134,7 +135,7 @@ Presenting Author^
 <location> Undergraduate Research Program, University of Washington </location>
 
 - Engaged 120+ students with diverse backgrounds from 6 first-year interest groups through interactive outreach presentations and served on a panel interfacing with 50+ students
-<!-- - Present at the Annual UW Undergraduate Research Symposium -->
+- Present at the Annual UW Undergraduate Research Symposium 
 
 ### Webmaster <time> Apr 2022 – Present </time>
 
@@ -164,9 +165,9 @@ Presenting Author^
 - Led weekly committee meetings of 10 people and planned campus-wide waste-sorting competition
 - Liaise sustainability feedback and initiatives through weekly hall council and sustainability group meetings
 
-<!-- Archive High School Content -->
+ Archive High School Content 
 
-<!-- ### Peer Tutor of Math, Science, and English <time> Sep 2016 – Jun 2019 </time>
+ ### Peer Tutor of Math, Science, and English <time> Sep 2016 – Jun 2019 </time>
 
 <location> Kinglee High School </location>
 
@@ -187,6 +188,6 @@ Presenting Author^
 <location> Kinglee High School </location>
 
 - Supervised biology, chemistry, and physics lab practices of 9th-grade students for Zhongzhao Examination
-- Taught lab safety guidelines, standard lab procedures, and best practices, as well as ensured lab safety -->
+- Taught lab safety guidelines, standard lab procedures, and best practices, as well as ensured lab safety 
 
-<!-- Detail checks: 1. No period for each bullet; 2. Past tense for previous work; 3. Present tense for current work; 4. Spell check passed; 5. Grammarly check passed; 6. Sync with Linkedin; 7. Check paper format -->
+ Detail checks: 1. No period for each bullet; 2. Past tense for previous work; 3. Present tense for current work; 4. Spell check passed; 5. Grammarly check passed; 6. Sync with Linkedin; 7. Check paper format -->
