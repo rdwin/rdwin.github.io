@@ -32,6 +32,16 @@
 }
 
 // headings
+h2.tag-heading {
+	display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-transform: capitalize;
+}
 h3.title a {
 	color: $color_shark;
 	text-decoration: none;
