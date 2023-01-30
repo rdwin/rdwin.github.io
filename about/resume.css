@@ -71,6 +71,12 @@ li {
     text-align: center;
 }
 
+.info a {
+    width: 12px;
+    display:inline-block;
+    text-align: center;
+}
+
 a {
     color: #0D47A1;
     text-align: center;

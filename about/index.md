@@ -10,9 +10,9 @@ comments: false
 <span class="name">Dwi Nur R.</span>
 
 <span class="info">
-[![Mail](https://simpleicons.org/icons/minutemailer.svg) tlin10@uw.edu](mailto:tlin10@uw.edu)
-[![GitHub](https://simpleicons.org/icons/github.svg) github.com/tengjuilin](https://github.com/tengjuilin)
-[!Location]Semarang, Indonesia
+<i class="fa fa-envelope"></i> [rdwinr10@gmail.com](mailto:rdwinr10@gmail.com)
+<i class="fa fa-github"></i> [github.com/rdwin](https://github.com/rdwin)
+<i class="fa fa-map-marker"></i> Semarang, Indonesia
 </span>
 
 ## Education
