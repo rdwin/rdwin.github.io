@@ -12,7 +12,7 @@ comments: false
 <span class="info">
 [![Mail](https://simpleicons.org/icons/minutemailer.svg)rdwinr10@gmail.com](mailto:rdwinr10@gmail.com)
 [![GitHub](https://simpleicons.org/icons/github.svg)github.com/rdwin](https://github.com/rdwin)
-![Location](https://simpleicons.org/icons/googlemaps.svg)Semarang, Indonesia
+<a>![Location](https://simpleicons.org/icons/googlemaps.svg)Semarang, Indonesia</a>
 
 
 ## Education
