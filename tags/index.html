@@ -21,16 +21,9 @@ comments: false
   {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
 	<article>
 	<h2 id="{{ this_word }}" class="tag-heading">{{ this_word }}</h2>
-		<ul>
+		<ul class="leaders">
     {% for post in site.tags[this_word] %}{% if post.title != null %}
-      <span>
-        <li class="entry-title">
-          <a class="entry">
-            <a class="chapter" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-            <a class="page">{{post.date | date: '%d %b %Y'}}</a>
-          </a>
-        </li>
-      </span>
+      <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><span>{{ post.title }}</span> <span>{{post.date | date: '%d %b %Y'}}</span></a></li>
     {% endif %}{% endfor %}
 		</ul>
 	</article><!-- /.hentry -->
