@@ -1,7 +1,7 @@
 # Site
 title:              R, Dwi N
-bio:                "'Anything that can go wrong, will go wrong' ~Murphy's Law"
-description:        "Project documentation for self-learning."
+bio:                "<i class='fa fa-code'></i> Projects | <i class='fa fa-user'></i> Blog | <i class='fa fa-headphones'></i> Random"
+description:        "'Anything that can go wrong, will go wrong' ~Murphy's Law"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -68,6 +68,7 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
+  - webrick
 
 jekyll-mentions:
     base_url: https://github.com

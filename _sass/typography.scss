@@ -123,6 +123,25 @@ a {
   }
 }
 
+.linked {
+	transition: color .4s;
+	color: $color_shark;
+	cursor: pointer;
+	&:link {
+		color: $color_shark;
+	}
+	&:visited {
+		color: $color_tuatara;
+	}
+	&:hover {
+		color: $info;
+	}
+	&:active {
+		transition: color .3s;
+		color: $maroon;
+	}
+}
+
 // pre and code
 pre, code {
 	font-family: $font2;
@@ -179,6 +198,8 @@ ul.leaders {
 	width: 0;
 	white-space: nowrap;
 	content:
+	". . . . . . . . . . . . . . . . . . . . "
+	". . . . . . . . . . . . . . . . . . . . "
 	". . . . . . . . . . . . . . . . . . . . "
 	". . . . . . . . . . . . . . . . . . . . "
 	". . . . . . . . . . . . . . . . . . . . "

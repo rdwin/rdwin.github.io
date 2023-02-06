@@ -10,9 +10,9 @@ comments: false
 <span class="name">Dwi Nur R.</span>
 
 <span class="info">
-[![Mail](https://simpleicons.org/icons/minutemailer.svg)rdwinr10@gmail.com](mailto:rdwinr10@gmail.com)
-[![GitHub](https://simpleicons.org/icons/github.svg)github.com/rdwin](https://github.com/rdwin)
-<a>![Location](https://simpleicons.org/icons/googlemaps.svg)Semarang, Indonesia</a>
+[![Mail](https://simpleicons.org/icons/minutemailer.svg) rdwinr10@gmail.com](mailto:rdwinr10@gmail.com)
+[![GitHub](https://simpleicons.org/icons/github.svg) github.com/rdwin](https://github.com/rdwin)
+<a class= "black">![Location](https://simpleicons.org/icons/googlemaps.svg) Semarang, Indonesia</a>
 
 
 ## Education
