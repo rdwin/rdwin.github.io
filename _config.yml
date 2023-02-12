@@ -1,7 +1,7 @@
 # Site
-title:              R, Dwi N
+title:              
 bio:                "<i class='fa fa-code'></i> Projects | <i class='fa fa-user'></i> Blog | <i class='fa fa-headphones'></i> Random"
-description:        "'Anything that can go wrong, will go wrong' ~Murphy's Law"
+description:        "'Anything that can go wrong, will go wrong' <br> ~Murphy's Law"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'

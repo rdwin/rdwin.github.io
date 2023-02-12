@@ -223,40 +223,47 @@ header .entry-meta {
 
 // Tooltip
 
-.tooltip {
+.tooltipText {
 	position: relative;
 	display: inline-block;
-  }
-  
-.tooltip .tooltiptext {
-	visibility: hidden;
-	width: 120px;
-	background-color: #555;
-	color: #fff;
+	margin: 2px;
 	text-align: center;
-	border-radius: 6px;
-	padding: 5px 0;
+	font-family: "Poppins", sans-serif;
+}
+
+.tooltip,
+.tooltip-1 {
+	visibility: hidden;
 	position: absolute;
-	z-index: 1;
-	bottom: 125%;
-	left: 50%;
-	margin-left: -60px;
-	opacity: 0;
-	transition: opacity 0.3s;
-  }
+	z-index: 2;
+	width: 100px;
+	color: #ccc;
+	font-size: 12px;
+	background-color: #192733;
+	border-radius: 10px;
+	padding: 10px 15px 10px 15px;
+	top: -40px;
+	left: -150%;
+	cursor: pointer;
+}
   
-  .tooltip .tooltiptext::after {
+.tooltip::before,
+.tooltip-1::before {
 	content: "";
+	cursor: pointer;
 	position: absolute;
-	top: 100%;
-	left: 50%;
-	margin-left: -5px;
-	border-width: 5px;
-	border-style: solid;
-	border-color: #555 transparent transparent transparent;
-  }
-  
-  .tooltip:hover .tooltiptext {
+	transform: rotate(45deg);
+	background-color: #192733;
+	top: 80%;
+	left: 45%;
+	padding: 5px;
+	z-index: 1;
+}
+ 
+.tooltipText .fb:hover .tooltip,
+.tooltipText .twt:hover .tooltip,
+.tooltipText .copy:hover .tooltip,
+.tooltipText .copy:hover .tooltip-1 {
 	visibility: visible;
-	opacity: 1;
-  }
+}
+

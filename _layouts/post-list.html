@@ -15,8 +15,8 @@ layout: compress
     <header class="header" role="banner">
         <div class="wrapper animated fadeIn">
             <div class="content">
-                <div class="post-title">
-                    <h1>{{ page.title }}</h1>
+                <div class="post-title" style="margin-bottom: 3vh;">
+                    <h1 style="font-size: 2.75vh;">{{ page.title }}</h1>
                     <a class="btn zoombtn" href="{{site.url}}">
                         <i class="fa fa-home"></i>
                     </a>
@@ -26,12 +26,12 @@ layout: compress
                         {% if post.project == null %}
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                            <em><p>{{ post.excerpt }}</p></em>
-                            <dl><i class="fa fa-calendar"></i> 
+                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}" style="font-size: 2vh; line-height: 0.75vh;">{{ post.title }}</a>
+                            <em><p style="font-size: 1.5vh; margin-top: 0.5vh; margin-bottom: 0.5vh;">{{ post.excerpt }}</p></em>
+                            <dl style="font-size: 1.25vh; margin-top: 0.1vh; margin-bottom: 0.1vh;"><i class="fa fa-calendar"></i> 
                                 {{post.date | date: '%d %B %Y'}}
                             </dl>
-                            <dl><i class="fa fa-tags"></i>
+                            <dl style="font-size: 1.25vh; margin-top: 0.1vh; margin-bottom: 0.1vh;"><i class="fa fa-tags"></i>
                                 {% for tag in post.tags %}
                                     {{ tag }}
                                     {%- unless forloop.last -%}, {%- endunless -%}
