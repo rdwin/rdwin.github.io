@@ -20,8 +20,8 @@ comments: false
 {% for item in (0..site.tags.size) %}{% unless forloop.last %}
   {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
 	<article>
-	<h2 id="{{ this_word }}" class="tag-heading">{{ this_word }}</h2>
-		<ul class="leaders">
+	<h2 id="{{ this_word }}" class="tag-heading" style="font-size: 2.5vh;margin-bottom: 0vh;margin-top: 1.5vh;">{{ this_word }}</h2>
+		<ul class="leaders" style="font-size: 1.5vh;margin: 0vh;">
     {% for post in site.tags[this_word] %}{% if post.title != null %}
       <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><span>{{ post.title }}</span> <span>{{post.date | date: '%d %b %Y'}}</span></a></li>
     {% endif %}{% endfor %}
