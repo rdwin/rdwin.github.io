@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Coursera: Getting and Cleaning Data Assignment"
+title: "Coursera: Getting and Cleaning Data"
 date: 2020-09-26
 excerpt: "Demonstrating data collection, loading the data, data cleaning and merge the several file data into one and tidy data. A final assignment of Getting and Cleaning Data course from John Hopkins University in Coursera."
 tags: [r programming, project, data cleaning]
