@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Coursera: Getting and Cleaning Data"
+title: "Human Activity Data Set"
 date: 2020-09-26
-excerpt: "Demonstrating data collection, loading the data, data cleaning and merge the several file data into one and tidy data. A final assignment of Getting and Cleaning Data course from John Hopkins University in Coursera."
-tags: [r programming, project, data cleaning]
+excerpt: "Coursera: Getting and Cleaning Data, Course Project. Doing data cleaning in the data set of human activity that are recorded using smartphone. Merge train-test data set and change the labels into more descriptive label."
+tags: [r programming, data cleaning]
 project: true
+comments: true
 ---
 
 ## Synopsis
@@ -20,8 +21,6 @@ A full description is available at the site where the data was obtained: [Here](
 The purpose of this project is to demonstrating how to collect, load, and clean a data set. The goal is to prepare tidy data that can be processed easily for later analysis.
 - Data set [[60MB](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)]
 
-This project will be saved on my [Github Repository](https://github.com/rdwin/getting-and-cleaning-data-week-4-project)
-
 ### Processing Steps
 
 1. Collecting the data.
@@ -35,8 +34,6 @@ This project will be saved on my [Github Repository](https://github.com/rdwin/ge
 
 
 ```R
-# library(dplyr)
-
 # Download the Data set
     fileurl <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
     download.file(fileurl, destfile = 'projectdataset.zip')

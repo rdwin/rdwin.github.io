@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Coursera: Exploratory Data Analysis 2"
+title: "PM₂.₅ Emissions Data"
 date: 2020-10-03
-excerpt: "Demonstrating basic ETL and constructing the plots based on the requirement of this assignment. This is a final assignment of Exploratory Data Analysis course from John Hopkins University in Coursera."
-tags: [r programming, project, data visualization]
+excerpt: "Coursera: Exploratory Data Analysis, Course Project 2. Creating plots based on the requirement of the assignment."
+tags: [r programming, data visualization]
 project: true
+comments: true
 ---
 
 ## Synopsis
@@ -21,7 +22,7 @@ The data for this assignment are available from the course web site as a single 
 
 The zip file contains two files:
 
-PM2.5 Emissions Data (`summarySCC_PM25.rds`): This file contains a data frame with all of the PM\\( _{2.5} \\) emissions data for 1999, 2002, 2005, and 2008. For each year, the table contains number of tons of PM\\( _{2.5} \\) emitted from a specific type of source for the entire year.
+PM\\( _{2.5} \\) Emissions Data (`summarySCC_PM25.rds`): This file contains a data frame with all of the PM\\( _{2.5} \\) emissions data for 1999, 2002, 2005, and 2008. For each year, the table contains number of tons of PM\\( _{2.5} \\) emitted from a specific type of source for the entire year.
 
 Source Classification Code Table (`Source_Classification_Code.rds`): This table provides a mapping from the SCC digit strings in the Emissions table to the actual name of the PM\\( _{2.5} \\) source. The sources are categorized in a few different ways from more general to more specific and you may choose to explore whatever categories you think are most useful.
 

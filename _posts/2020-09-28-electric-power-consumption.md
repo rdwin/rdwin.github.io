@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Coursera: Exploratory Data Analysis 1"
+title: "Electric Power Consumption"
 date: 2020-09-28
-excerpt: "Demonstrating basic ETL and reconstruct the plots from the examples provided by Lecturers. This is an assignment of Exploratory Data Analysis course from John Hopkins University in Coursera."
-tags: [r programming, project, data visualization]
+excerpt: "Coursera: Exploratory Data Analysis, Course Project 1. Reconstruct the plots based on Lecture's examples in Electric Power Consumption data set."
+tags: [r programming, data visualization]
 project: true
+comments: true
 ---
 
 ## Synopsis
@@ -17,7 +18,7 @@ This assignment uses data from the [UC Irvine Machine Learning Repository](http:
 
 - **Description**: Measurements of electric power consumption in one household with a one-minute sampling rate over a period of almost 4 years. Different electrical quantities and some sub-metering values are available. The detailed description of these dataset could be obtained in [UCI website](https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption).
 
-Our overall goal here is simply to examine how household energy usage varies over a 2-day period in February, 2007. The task is to reconstruct the plots provided by lecturer, all of which were constructed using the base plotting system. The detailed documentation could be obtained in my [Github Repository](https://github.com/rdwin/ExData_Plotting1).
+Our overall goal here is simply to examine how household energy usage varies over a 2-day period in February, 2007. The task is to reconstruct the plots provided by lecturer, all of which were constructed using the base plotting system.
 
 ### Processing Steps
 
