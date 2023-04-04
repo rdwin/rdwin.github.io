@@ -2,7 +2,7 @@
 layout: post
 title: "Human Activity Data Set"
 date: 2020-09-26
-excerpt: "Coursera: Getting and Cleaning Data, Course Project. Doing data cleaning in the data set of human activity that are recorded using smartphone. Merge train-test data set and change the labels into more descriptive label."
+excerpt: "Coursera: Getting and Cleaning Data, Course Project. Doing data cleaning in the data set of human activity that are recorded using smartphone. Merge train-test data set and changed the labels to be more descriptive."
 tags: [r programming, data cleaning]
 project: true
 comments: true

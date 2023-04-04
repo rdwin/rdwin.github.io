@@ -107,13 +107,11 @@ From the result above, we have 60 Observations and 3 variables.
 unique(data$dose)
 ```
 
+0.5
 
-<ol class=list-inline>
-	<li>0.5</li>
-	<li>1</li>
-	<li>2</li>
-</ol>
+1
 
+2
 
 
 There are 3 different treatment about dosage of the supplement are given, which are **0.5**, **1.0**, and **2.0**. Also, there 2 different treatment on the type of supplement are given.

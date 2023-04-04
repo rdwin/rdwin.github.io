@@ -65,10 +65,11 @@ After reading the data set, check the dimension and the column names.
 ```
 
 
-<ol class=list-inline>
-	<li>902297</li>
-	<li>37</li>
-</ol>
+902297
+
+37
+
+
 
 <table>
 <thead><tr><th scope=col>STATE__</th><th scope=col>BGN_DATE</th><th scope=col>BGN_TIME</th><th scope=col>TIME_ZONE</th><th scope=col>COUNTY</th><th scope=col>COUNTYNAME</th><th scope=col>STATE</th><th scope=col>EVTYPE</th><th scope=col>BGN_RANGE</th><th scope=col>BGN_AZI</th><th scope=col>...</th><th scope=col>CROPDMGEXP</th><th scope=col>WFO</th><th scope=col>STATEOFFIC</th><th scope=col>ZONENAMES</th><th scope=col>LATITUDE</th><th scope=col>LONGITUDE</th><th scope=col>LATITUDE_E</th><th scope=col>LONGITUDE_</th><th scope=col>REMARKS</th><th scope=col>REFNUM</th></tr></thead>
