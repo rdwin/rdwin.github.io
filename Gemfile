@@ -8,3 +8,4 @@ gem 'jekyll-feed'
 gem 'webrick'
 gem 'faraday-retry'
 gem 'github-pages', group: :jekyll_plugins
+gem 'jekyll-github-metadata'

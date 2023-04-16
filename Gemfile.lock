@@ -260,6 +260,7 @@ DEPENDENCIES
   jekyll
   jekyll-feed
   jekyll-gist
+  jekyll-github-metadata
   jekyll-mentions
   jekyll-sitemap
   webrick

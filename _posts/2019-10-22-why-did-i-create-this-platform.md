@@ -11,7 +11,7 @@ comments: true
 *Photo by Suzy Hazelwood from [Pexels](https://www.pexels.com/photo/black-typewriter-machine-typing-on-white-printer-paper-1303835/)*{: .imgtab .cap}
 {: .imgtab}
 
- As I mentioned in {previous article]({{site.url}}/introduction-about-me/ “Introduction: About Me”), I am an introverted person. When interacting with people, I tend to be socially awkward. I always hesitate in giving a response in some situations, which has an effect on how I do facial expression. I did this because I’m not sure if I offended someone or not, so I had to be extremely cautious when I was having social interaction.
+ As I mentioned in [previous article]({{site.url}}/introduction-about-me/ “Introduction: About Me”), I am an introverted person. When interacting with people, I tend to be socially awkward. I always hesitate in giving a response in some situations, which has an effect on how I do facial expression. I did this because I’m not sure if I offended someone or not, so I had to be extremely cautious when I was having social interaction.
 
 This personality trait makes me look like an unapproachable person. Although I have this barrier, I always try so hard to be as friendly as possible. I also do my job perfectly to avoid others getting in trouble because of me. But unfortunately people seem to leave it unnoticed because of these barriers. To be honest, it was frustrating to know that you tried so hard to not make mistakes but everyone just ignored your efforts.
 
