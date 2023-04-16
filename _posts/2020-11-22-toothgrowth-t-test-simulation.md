@@ -132,10 +132,7 @@ Showing plot of the experiment result.
                                  labels = c("Orange Juice", "Vitamin C"))
 ```
 
-<figure>
-    <a href="/images/stat/plot1.png"><img src="/assets/img/project/stat/output_17_0.png"></a>
-</figure>  
- 
+ [![]({{site.url}}/assets/img/project/stat/output_17_0.png "ToothGrowth Plot")]({{site.url}}/assets/img/project/stat/output_17_0.png "ToothGrowth Plot")
 
 ## Data Analysis
 

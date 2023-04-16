@@ -371,10 +371,7 @@ These question can be answered by comparing the total number of both fatalities 
             theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
-<figure>
-    <a href="/images/rep2/plot1.png"><img src="/assets/img/project/rep-2/output_44_0.png"></a>
-</figure>  
-
+[![]({{site.url}}/assets/img/project/rep-2/output_44_0.png)]({{site.url}}/assets/img/project/rep-2/output_44_0.png)
 
 From the graph above, I conclude that **Tornado** has big impact into population health, both in injuries or fatalities, Across United States.
 
@@ -394,8 +391,6 @@ These question can be answered by comparing the total damages caused by every ty
             theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
-<figure>
-    <a href="/images/rep2/plot2.png"><img src="/assets/img/project/rep-2/output_48_0.png"></a>
-</figure>  
+[![]({{site.url}}/assets/img/project/rep-2/output_48_0.png)]({{site.url}}/assets/img/project/rep-2/output_48_0.png)
       
 From the graph above, I conclude that the Weather event categoried by **DROUGHT** have the greatest repair cost in **Crop Repair**. While in property, We could see that the greatest cost is event categoried by **FLOOD**.

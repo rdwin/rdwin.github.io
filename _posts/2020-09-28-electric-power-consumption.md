@@ -132,10 +132,7 @@ head(data)
      dev.off()
 ```
 
-
-<figure>
-    <a href="/images/eda1/plot1.png"><img src="/assets/img/project/eda-1/output_14_2.png"></a>
-</figure>    
+[![]({{site.url}}/assets/img/project/eda-1/output_14_2.png)]({{site.url}}/assets/img/project/eda-1/output_14_2.png)  
 
 
 ### Plot 2
@@ -153,10 +150,7 @@ head(data)
      dev.off()
 ```
 
-
-<figure>
-    <a href="/images/eda1/plot2.png"><img src="/assets/img/project/eda-1/output_16_2.png"></a>
-</figure>      
+[![]({{site.url}}/assets/img/project/eda-1/output_16_2.png)]({{site.url}}/assets/img/project/eda-1/output_16_2.png)
 
 
 ### Plot 3
@@ -182,10 +176,7 @@ head(data)
      dev.off()
 ```
 
-
-<figure>
-    <a href="/images/eda1/plot3.png"><img src="/assets/img/project/eda-1/output_18_2.png"></a>
-</figure>      
+[![]({{site.url}}/assets/img/project/eda-1/output_18_2.png)]({{site.url}}/assets/img/project/eda-1/output_18_2.png) 
 
 
 ### Plot 4
@@ -219,8 +210,5 @@ head(data)
      dev.off()
 ```
 
-
-<figure>
-    <a href="/images/eda1/plot4.png"><img src="/assets/img/project/eda-1/output_20_2.png"></a>
-</figure>    
+[![]({{site.url}}/assets/img/project/eda-1/output_20_2.png)]({{site.url}}/assets/img/project/eda-1/output_20_2.png)  
 

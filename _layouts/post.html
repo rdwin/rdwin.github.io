@@ -17,12 +17,13 @@ layout: compress
             <div class="content">
                 <div class="post-title {% if page.feature %} feature {% endif %}">
                     <h1>{{ page.title }}</h1>
-                    <h4>{{ page.date | date_to_string }}</h4>
-                    {% if site.reading_time %}
-                    <p class="reading-time">
-                      <i class="fa fa-clock-o"></i>
-                      {% include read-time.html %}
-                    </p><!-- /.entry-reading-time -->
+                    <span>
+                        <h4 class="reading-time">
+                            {{ page.date | date_to_string }} &emsp;                            {% if site.reading_time %}
+                            <i class="fa fa-clock-o"></i>
+                            {% include read-time.html %}
+                        </h4><!-- /.entry-reading-time -->
+                    </span>
                     {% endif %}
                     {% if page.project %}
                     <a class="btn zoombtn" href="{{site.url}}/projects/">

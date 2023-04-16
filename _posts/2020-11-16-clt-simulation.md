@@ -125,11 +125,7 @@ ggplot(plotSimulation, aes(x = rowMeanSim)) +
      stat_function(fun = dnorm, size = 1, color = "orange", args = list(meanTheore, varTheore))
 ```
     
-
-<figure>
-    <a href="/images/clt/plot1.png"><img src="/assets/img/project/clt/output_21_1.png"></a>
-</figure>  
-       
+[![]({{site.url}}/assets/img/project/clt/output_21_1.png "CLT Plot"){: style="max-width: 200px" .right}]({{site.url}}/assets/img/project/clt/output_21_1.png "CLT Plot")
 
 The density of the simulation data is shown by the "light green" bar. The vertical line is referred to the mean of the data. The color supposed to be "black" for simulation data and "red" for theoretical data, but both are so close and overlap. Then, The curve line is referred to the mean and variance of both. The simulation data shown by "purple" line. While, the theoretical data shown by "orange' line.
 

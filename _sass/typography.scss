@@ -1,6 +1,6 @@
 // content area
 .content {
-	@include font-size(14);
+	@include font-size(16);
 	padding: 0 2rem;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased !important;
@@ -61,21 +61,21 @@ h3.title a {
 		background: $white;
 		color: $color_shark;
 		a {
-			@include font-rem(20);
+			@include font-rem(22);
 			text-decoration: none;
 			color: $color_shark;
 			font-weight: bolder;
-            &:hover {
-                color: $info;
+			&:hover {
+                color: $link_hover;
             }
 		}
 		p {
 			font-weight: normal;
-			@include font-rem(16);
+			@include font-rem(20);
 		}
 		dl {
 			font-weight: lighter;
-			@include font-rem(16);
+			@include font-rem(20);
 			text-transform: capitalize;
 			display: inline-block;
 			color: darkslategray;
@@ -87,18 +87,52 @@ h3.title a {
 }
 
 // quotes
-blockquote {
+blockquote{
+	font-size: 1.05rem;
+	width:100%;
+	margin:auto;
 	font-family:$alt-font;
 	font-style:italic;
-	border-left:8px solid $color_tundora;
-	padding-left:20px;
-	margin: 0;
-}
-@media only screen and (min-width: 48em) {
-	blockquote {
-		margin-left:-28px
+	color: #383838;
+	padding:1em 30px 1em 40px;
+	border-left:8px solid #aabcce ;
+	line-height:1.4;
+	position: relative;
+	background:#f5f5f5;
+
+	@media only screen and (min-width: 48em) {
+		blockquote {
+			font-size:1em;
+			line-height: 1.6;
+		}
 	}
+  }
+  
+.auth{
+	display:block;
+	color:#333333;
+	font-style:inherit;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top:1em;
+	text-align: right;
 }
+
+  blockquote::before{
+	font-family:Arial;
+	content: "\201C";
+	color:#8d9d9e;
+	font-size:4em;
+	position: absolute;
+	left: 10px;
+	top:-10px;
+  }
+  
+  blockquote::after{
+	content: '';
+  }
+  
+
 
 // figcaption
 figcaption {
@@ -112,13 +146,13 @@ a {
   transition: color .4s;
   color: $color_shark;
   &:link {
-  	color: $color_shark;
+  	color: $link_color;
   }
   &:visited {
-  	color: $color_tuatara;
+  	color: $link_color;
   }
   &:hover {
-  	color: $info;
+  	color: $link_hover;
   }
   &:active {
   	transition: color .3s;
@@ -128,16 +162,16 @@ a {
 
 .linked {
 	transition: color .4s;
-	color: $color_shark;
+	color: $link_color;
 	cursor: pointer;
 	&:link {
-		color: $color_shark;
+		color: $link_color;
 	}
 	&:visited {
-		color: $color_tuatara;
+		color: $link_color;
 	}
 	&:hover {
-		color: $info;
+		color: $link_hover;
 	}
 	&:active {
 		transition: color .3s;
@@ -192,7 +226,7 @@ tr:nth-child(even){
     margin-top: 1.5em;
     padding: .5em 1em;
     text-indent: 0;
-    @include font-rem(14);
+    @include font-rem(16);
     background-color: $color_gray;
     border: 1px solid $color_pink_swan;
     @include rounded(3px);
@@ -234,3 +268,47 @@ ul.leaders {
 	padding-left: 0.33em;
 	background: white
 	}
+
+//br
+br {   
+    content: "";
+    margin: 0.8em;
+    display: block;
+ }
+
+ // prompts
+
+ .prompt-tip, 
+ .prompt-info,
+ .prompt-warning,
+ .prompt-danger {
+	padding-left: 1rem;
+	display: inline-block;
+	border-left: 0;
+	border-radius: 6px;
+	padding:1em 20px 1em 20px;
+	color: var(--prompt-text-color);
+	position: relative;
+
+	&::before {
+	font-size:1.5em;
+	left: -5px;
+	top: -15px;
+	font-family: FontAwesome;
+	position:absolute;
+
+	}
+
+	p:last-child {
+	  margin-bottom: 0rem;
+	}
+}
+
+@include prompt("tip", "\f0eb", 400);
+
+@include prompt("info", "\f06a");
+
+@include prompt("warning", "\f06a");
+
+@include prompt("danger", "\f071");
+

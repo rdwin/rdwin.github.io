@@ -9,7 +9,7 @@
 	color: $color_shark;
 	&:hover {
 		box-shadow: 0 0 1px 0 rgba($color_shark,0.5);
-		color: $info;
+		color: $link_hover;
 	}
 }
 .social-btn {
@@ -19,7 +19,7 @@
 }
 .btn {
 	padding: 10px 18px;
-	@include font-rem(14);
+	@include font-rem(16);
 	margin: 4px auto;
 	@extend %btnextend;
 	&.btn-success {
@@ -73,12 +73,12 @@
 }
 .title .btn {
     margin: 10px;
-    @include font-rem(16);
+    @include font-rem(20);
     font-weight:300;
 }
 .post-list {
     .btn {
-        @include font-rem(14);
+        @include font-rem(16);
     }
 }
 
@@ -107,16 +107,59 @@ hr {
 // images and figures
 img {
     display: block;
-	max-width: 100%;
+	  max-width: 95%;
     width: auto;
     height: auto;
-    vertical-align: middle;
     margin-left: auto;
     margin-right: auto;
     border: 0;
     -ms-interpolation-mode: bicubic;
+    @include rounded(4px);
     image-rendering: optimizeQuality;
+    
+    &.left {
+      @media only screen and (min-width: 62.5em) {
+        float: left;
+        margin: 0.75rem 1rem 1rem 0;
+      }
+    }
+    &.right {   
+      @media only screen and (min-width: 62.5em) {
+        float: right;
+        margin: 0.75rem 0 1rem 1rem;
+      }
+    }
+    &.shadow {
+      @media only screen and (min-width: 62.5em) {
+        filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.08));
+        box-shadow: none !important; /* cover the Bootstrap 4.6.1 styles */
+      }
+    }
 }
+
+// image with table
+.imgtab {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 95%;
+	overflow-x:auto;
+	display: block;
+	white-space: nowrap;
+  text-align: center !important;
+  margin-block: 1em;
+  margin: auto;
+  margin-inline: 1em;
+  
+  &.pic, &.cap {
+    padding: 8px;
+  }
+
+  &.cap{
+    font-style: italic !important;
+    font-size: 12px !important;
+  }
+}
+
 .img-circle {
 	border-radius: 50%;
 	border: 3px solid $white;
@@ -136,6 +179,7 @@ figure {
   padding-top: 10px;
   padding-bottom: 10px;
   @include clearfix();
+  animation: fade-in linear 0.5s;
   img {
     margin-bottom: 10px;
     @include rounded(4px);
@@ -203,6 +247,13 @@ kbd {
 // reading time
 .reading-time {
     text-align: center;
-    font-weight: 300;
     margin-bottom: 10px;
+}
+
+%no-cursor {
+  user-select: none;
+}
+
+%cursor-pointer {
+  cursor: pointer;
 }

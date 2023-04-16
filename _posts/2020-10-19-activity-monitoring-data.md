@@ -99,9 +99,7 @@ hist(stepByDay$steps,
      col = c(1,2,3,4,5))
 ```
 
-<figure>
-    <a href="/images/rep1/plot1.png"><img src="/assets/img/project/rep-1/output_13_0.png"></a>
-</figure>     
+[![]({{site.url}}/assets/img/project/rep-1/output_13_0.png)]({{site.url}}/assets/img/project/rep-1/output_13_0.png)     
 
 
 **Calculating  the mean and median of the total number of steps taken per day**
@@ -151,9 +149,7 @@ hist(stepByDay$steps,
               ylab = 'Average Number of Steps'))
 ```
 
-<figure>
-    <a href="/images/rep1/plot2.png"><img src="/assets/img/project/rep-1/output_20_0.png"></a>
-</figure>      
+[![]({{site.url}}/assets/img/project/rep-1/output_20_0.png)]({{site.url}}/assets/img/project/rep-1/output_20_0.png)     
 
 
 **5-minute interval contains the maximum number of steps on average across all the days in the data set**
@@ -241,10 +237,7 @@ hist(stepByDay$steps,
      main = 'Histogram of the Steps per Day',
      col = c(1,2,3,4,5))
 ```
-
-<figure>
-    <a href="/images/rep1/plot3.png"><img src="/assets/img/project/rep-1/output_32_0.png"></a>
-</figure>     
+[![]({{site.url}}/assets/img/project/rep-1/output_32_0.png)]({{site.url}}/assets/img/project/rep-1/output_32_0.png)    
 
 
 ```R
@@ -327,8 +320,4 @@ hist(stepByDay$steps,
            ylab="Average Number of Steps", 
            xlab="Interval")
 ```
-
-<figure>
-    <a href="/images/rep1/plot4.png"><img src="/assets/img/project/rep-1/output_41_0.png"></a>
-</figure>       
-
+[![]({{site.url}}/assets/img/project/rep-1/output_41_0.png)]({{site.url}}/assets/img/project/rep-1/output_41_0.png)

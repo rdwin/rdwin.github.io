@@ -18,7 +18,9 @@ $color_fuscous_gray  : #555;
 $color_alabaster     : #fcfcfc;
 $color_celeste       : #ccc;
 $color_pink_swan     : #bbb;
-$comp-color 	     : complement(#222); 
+$comp-color 	     : complement(#222);
+$link_hover          : #d2603a;
+$link_color          : #2a408e; 
 
 //button colors
 $success			 : #5cb85c;
@@ -38,3 +40,37 @@ $small               : "only screen and (max-width: 30em)";
 $medium              : "only screen and (min-width: 30.1em) and (max-width: 48em)";
 $large               : "only screen and (min-width: 48.1em) and (max-width: 62.5em)";
 $notsmall            : "only screen and (min-width: 48em)";
+
+//prompt
+
+:root {
+  --prompt-text-color: rgb(46 46 46 / 77%);
+  --prompt-tip-bg: rgb(123 247 144 / 20%);
+  --prompt-tip-icon-color: #03b303;
+  --prompt-info-bg: #e1f5fe;
+  --prompt-info-icon-color: #0070cb;
+  --prompt-warning-bg: rgb(255 243 205);
+  --prompt-warning-icon-color: #ef9c03;
+  --prompt-danger-bg: rgb(248 215 218 / 56%);
+  --prompt-danger-icon-color: #df3c30;
+  
+      /* -----  custom styles ------ */
+
+  --highlight-bg-color: #252525;
+  --highlighter-rouge-color: #2f2f2f;
+  --highlight-lineno-color: #6c6c6d;
+  --inline-code-bg: #f3f3f3;
+  --code-header-text-color: #6a6a6a;
+  --code-header-muted-color: rgb(60 60 60);
+  --code-header-icon-color: rgb(86 86 86);
+  --clipboard-checked-color: #2bcc2b;
+  --filepath-text-color: #bdbdbd;
+
+    [class^=prompt-] {
+      --link-underline-color: rgb(219 216 216);
+    }
+}
+
+//syntax highlight
+
+$code-font-size: 0.85rem !default;
