@@ -29,7 +29,7 @@ I provided detailed processing steps and data sources in most projects I did. If
 As for the articles, well… Every article is solely based on my opinion and perspective on seeing things. So, it is ***very personal***. You might or might not be offended by my point of view. _Please forgive me for my ignorance and just ignore it_. After all, my purpose of writing the articles was just to sort out my thoughts and relieve my stress, it’s natural if my perspectives are wrong.
 
 I believe that:\
-As time goes on, I'll gain new experiences, knowledge and new perspectives. When that time comes, I'll be embarrassed to write all of these.
+As time goes on, I'll gain new experiences, knowledge and new perspectives. When that time comes, I'll be embarrassed to read all of this shit.
 {: .prompt-warning}
 
 That's what I called __personal development__ and I am eager to wait for those opportunities to come to me.

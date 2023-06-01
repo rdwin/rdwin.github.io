@@ -1,6 +1,6 @@
 // content area
 .content {
-	@include font-size(16);
+	@include font-size(15);
 	padding: 0 2rem;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased !important;
@@ -114,7 +114,6 @@ blockquote{
 	font-style:inherit;
 	font-size: 1em;
 	font-weight: bold;
-	margin-top:1em;
 	text-align: right;
 }
 
@@ -188,7 +187,7 @@ p code,
 li code,
 p pre,
 li pre {
-    @include font(14);
+    @include font(13);
     background-color: $color_gray;
     border: 1px solid $color_mischka;
     @include rounded(4px);
@@ -214,6 +213,7 @@ table {
 
 th, td {
 	text-align: left;
+	font-size: 12px !important;
 	padding: 8px;
 }
 
